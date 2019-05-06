@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <title> Camisas Jave </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <style>
+        .no-margin-padding {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+    </style>     
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm justify-content-center text-center">
+                <h1>
+                    Camisas Jave - Exemplo
+                </h1>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./camisa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisa P</h5>
+                        <p class="card-text">Camisas tamanho P.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./camisa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisas M</h5>
+                        <p class="card-text">Camisas tamanho M.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./camisa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisas G</h5>
+                        <p class="card-text">Camisas tamanho G.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./camisa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisa GG</h5>
+                        <p class="card-text">Camisas tamanho GG.</p>
+                        <a href="#" class="btn no-margin-padding">
+                            <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                            <form action="https://pagseguro.uol.com.br/checkout/v2/payment.html" method="post"
+                                onsubmit="PagSeguroLightbox(this); return false;">
+                                <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                                <input type="hidden" name="code" value="891D14FE08089AF004E5AFB64560961F" />
+                                <input type="hidden" name="iot" value="button" />
+                                <input type="image"
+                                    src="https://stc.pagseguro.uol.com.br/public/img/botoes/pagamentos/99x61-comprar-azul-assina.gif"
+                                    name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                            </form>
+                            <script type="text/javascript"
+                                src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+                            <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="./camisa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisas XG</h5>
+                        <p class="card-text">Camisas tamanho XG.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
